@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="16dp"
+    tools:context="com.example.classcomplain.AddChildrenActivity"
+    android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/childname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/admissionid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Admission ID"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/childrollno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Roll No"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+    </android.support.design.widget.TextInputLayout>
+    <Spinner
+        android:id="@+id/childclass"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content"></Spinner>
+    <Spinner
+        android:id="@+id/childsection"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content"></Spinner>
+    <Button
+        android:id="@+id/addchild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="add child"
+        android:textStyle="bold" />
+
+</LinearLayout>

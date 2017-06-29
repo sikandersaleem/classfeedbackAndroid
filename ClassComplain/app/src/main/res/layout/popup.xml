@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:weightSum="20"
+        android:background="@android:color/darker_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Camera"
+                android:textColor="#3d3d3d"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/camerap"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:background="@color/tw__transparent"
+                android:src="@drawable/camera1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Gallery"
+                android:textColor="#3d3d3d"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/galleryp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tw__transparent"
+                android:src="@drawable/galico1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

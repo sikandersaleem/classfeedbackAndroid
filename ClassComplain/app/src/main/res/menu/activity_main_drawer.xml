@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/childrens"
+            android:icon="@drawable/childrens"
+            android:title="Childrens" />
+
+        <item
+            android:id="@+id/complain"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/allcomplain"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="All Feedback" />
+
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/signouticon"
+            android:title="Logout" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exiticon"
+            android:title="Exit" />
+
+    </group>
+
+
+</menu>

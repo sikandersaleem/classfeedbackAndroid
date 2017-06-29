@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+
+    <android.support.v7.widget.CardView xmlns:cv="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardUseCompatPadding="true"
+        cv:cardCornerRadius="5dp"
+        cv:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:text="vasgvaerdgfae"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subject"
+                android:layout_marginStart="15dp"
+                android:text="Parent Name"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="sgeagasdgasdg"
+                android:textColor="#ffffff" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

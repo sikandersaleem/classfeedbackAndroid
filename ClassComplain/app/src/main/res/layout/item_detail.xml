@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llfordetail"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_detail"
+    style="?android:attr/textAppearanceMedium"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="16dp"
+    android:lineSpacingMultiplier="1.5"
+    android:lineSpacingExtra="-1.5dp"
+    android:textIsSelectable="true"
+    tools:context="com.example.classcomplain.ItemDetailFragment" />
+<Button
+    android:layout_width="match_parent"
+     android:id="@+id/addcomplain"
+    android:text="Add Feedback"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+

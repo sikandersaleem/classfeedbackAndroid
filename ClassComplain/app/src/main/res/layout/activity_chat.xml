@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.classcomplain.ChatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:padding="5dp">
+
+        <ListView
+            android:id="@+id/list_of_messages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="16dp"
+            android:transcriptMode="alwaysScroll" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:weightSum="100">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Message"
+                android:id="@+id/input"
+                />
+        </android.support.design.widget.TextInputLayout>
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:background="@drawable/tw__transparent"
+    android:src="@drawable/ic_attachment_black_24dp"
+    android:id="@+id/attachment"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_weight="5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:src="@drawable/ic_send_black_24dp"
+            android:tint="@android:color/white"
+            app:fabSize="mini" />
+
+    </LinearLayout>
+
+</LinearLayout>

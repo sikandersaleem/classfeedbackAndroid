@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.classcomplain.ComplainTabbedViewActivity" >
+    <item android:id="@+id/copylink"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        android:title="Copy Complain ID"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

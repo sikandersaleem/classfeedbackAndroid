@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.classcomplain.SplashActivity"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="25">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tx4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Feedback\nManagement\nSystem"
+            android:textColor="#3d3d3d"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="25">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="30">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|bottom"
+            android:paddingBottom="5dp"
+            android:shadowColor="#3d3d3d"
+            android:text="Presented By: example.com"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+</LinearLayout>

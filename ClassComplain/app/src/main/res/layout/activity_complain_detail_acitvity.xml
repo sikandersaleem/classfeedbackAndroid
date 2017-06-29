@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.classcomplain.ComplainDetailAcitvity"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/admintv"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:text="Representator: " />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/assignrepresenter"
+            android:text="Assign Representator"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#131313"/>
+
+        <TextView
+            android:id="@+id/comptv"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.5"
+            android:lineSpacingExtra="-1.5dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:text="Complain: " />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#131313"/>
+
+        <TextView
+            android:id="@+id/usertv"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.5"
+            android:lineSpacingExtra="-1.5dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:text="User: " />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#131313"/>
+
+        <TextView
+            android:id="@+id/lastmsgtv"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.5"
+            android:lineSpacingExtra="-1.5dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:text="Last Message: " />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#131313"/>
+
+        <Button
+            android:id="@+id/conversationbtn"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:text="open conversation" />
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/resolve"
+            android:text="Close Feedback"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
